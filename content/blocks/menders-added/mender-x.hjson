@@ -1,0 +1,30 @@
+type: MendProjector
+name: "Mender X"
+
+size: 2
+
+health: 320
+
+hasPower: true
+range: 120
+healPercent: 33
+useTime: 60
+
+consumes: {
+	power: 1.6
+}
+
+category: effect
+
+requirements: [
+	copper/100
+	lead/100
+]
+
+research: {
+	requirements: [
+		copper/100
+		lead/100
+	]
+	parent: power-node-x
+}
