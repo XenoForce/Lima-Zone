@@ -1,0 +1,8 @@
+name: lima-zone
+displayName: Lima Zone
+author: goldie
+description: A new experience in Mindustry.
+version: "1.0.1"
+minGameVersion: "136"
+dependencies: []
+hideBrowser: true

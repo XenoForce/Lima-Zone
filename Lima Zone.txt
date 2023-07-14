@@ -1,0 +1,60 @@
+Lima Zone:
+---------
+
+* All components re-written in HJSON.
+
+* A whole new Tech Tree.
+
+* User-controlled Drones build faster.
+
+* Unlock price is same as Buying price of component.
+
+* Drills perform better.
+
+* Early Mender, and Force Projector, and Point Defence Turret.
+
+* Force Projector is 2x2 block size.
+
+* Better Power Node
+
+* Thermal Generator, with weak power output. (For Ground Zero, Frozen Forest, etc.)
+
+* Painted Copper Walls
+
+* Mining Drones to gather resources.
+
+* Repair Drones to repair damage.
+
+* Builder Drones to re-build destroyed buildings.
+
+* All Turrets re-coded in HJSON.
+
+* Smaller 2x2 Cyclone Turret
+
+* Smaller 2x2 Fuse Turret, with longer range.
+
+* Smaller 2x2 ForeShadow Turret
+
+* 2x2 Turrets: Arc, Ripple, Tsunami, Hail, Scorch, Spectre, Meltdown
+
+* Unit Factories are not Chained.
+
+* Unit Factories build faster.
+
+* Smaller Antumbra unit.
+
+* Smaller Eclipse unit.
+
+* Smaller Zenith unit, used as drone.
+
+* Smaller Quad and Oct units.
+
+* Small Navy units, used as drones.
+
+* Bigger Cores.
+
+* 2v2 versions of Erekir turrets: Breach, etc.
+
+
+
+
