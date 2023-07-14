@@ -1,0 +1,59 @@
+type: LaserTurret
+name: "Meltdown X"
+
+size: 2
+
+health: 3200
+
+shootEffect: shootBigSmoke2
+shootCone: 40
+recoil: 2
+shake: 1
+range: 195
+reload: 90
+firingMoveFract: 0.5
+shootDuration: 230
+shootSound: laserbig
+loopSound: beam
+loopSoundVolume: 2
+
+shootType: {
+	type: ContinuousLaserBulletType
+	damage: 78
+	length: 200
+	hitEffect: hitMeltdown
+	hitColor: "ffb98b"
+	status: melting
+	
+	drawSize: 420
+	
+	incendChance: 0.4
+	incendSpread: 5
+	incendAmount: 1
+	ammoMultiplier: 1
+}
+
+consume: {
+	power: 8
+}
+
+category: turret
+
+requirements: [
+	copper/1200
+	lead/350
+	graphite/300
+	surge-alloy/325
+	silicon/325
+]
+
+research: {
+	requirements: [
+		copper/1200
+		lead/350
+		graphite/300
+		surge-alloy/325
+		silicon/325
+	]
+	parent: segment-x
+}
