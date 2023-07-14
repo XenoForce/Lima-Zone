@@ -1,0 +1,68 @@
+type: ItemTurret
+name: "Foreshadow X"
+
+size: 2
+
+health: 2400
+
+maxAmmo: 40
+ammoPerShot: 3
+rotateSpeed: 2
+
+reload: 100
+cooldownTime: 100
+
+range: 500
+ammoUseEffect: casing3Double
+recoil: 2
+shake: 2
+shootCone: 2
+shootSound: railgun
+unitSort: strongest
+
+consume: {
+	power: 5
+}
+
+// reload == cooldownTime == 100
+// range == speed == 500
+
+ammoTypes: {
+surge-alloy: {
+	type: PointBulletType
+	
+	speed: 500
+	damage: 1350
+	
+	shootEffect: instShoot
+	hitEffect: instHit
+	smokeEffect: smokeCloud
+	trailEffect: instTrail
+	despawnEffect: instBomb
+	trailSpacing: 20
+	
+	buildingDamageMultiplier: 0.2
+	hitShake: 6
+	ammoMultiplier: 1
+}
+
+category: turret
+
+requirements: [
+	copper/1000
+	metaglass/600
+	surge-alloy/300
+	plastanium/200
+	silicon/600
+]
+
+research: {
+	requirements: [
+		copper/1000
+		metaglass/600
+		surge-alloy/300
+		plastanium/200
+		silicon/600
+	]
+	parent: segment-x
+}
