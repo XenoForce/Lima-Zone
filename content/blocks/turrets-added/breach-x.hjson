@@ -1,0 +1,125 @@
+type: ItemTurret
+name: "Breach X"
+
+size: 2
+
+health: 1890
+
+range: 190
+reload: 40
+recoil: 2
+shootCone: 3
+rotateSpeed: 1.5
+
+shootSound: shootAlt
+shake: 1
+ammoPerShot: 1
+
+shootY: -2
+outlineColor: "2d2f39"
+
+// drawer = new DrawTurret("reinforced-");
+
+// Effect sfe = new MultiEffect( Fx.shootBigColor, Fx.colorSparkBig );
+
+ammoTypes: {
+lead: {
+	type: BasicBulletType
+	speed: 7.5
+	damage: 85
+	lifetime: 28
+	width: 8
+	hitSize: 7
+	height: 13
+	
+	shootEffect: {
+		type: multiEffect
+		effects: [
+			shootBigColor
+			colorSparkBig
+		]
+	}
+	
+	smokeEffect: shootBigSmoke
+	
+	ammoMultiplier: 1
+	pierceCap: 2
+	pierce: true
+	pierceBuilding: true
+	
+	hitColor: "b1dd7e"
+	backColor: "b1dd7e"
+	trailColor: "b1dd7e"
+	
+	frontColor: "ffffff"
+	
+	trailWidth: 2.1
+	trailLength: 10
+	
+	hitEffect: hitBulletColor
+	despawnEffect: hitBulletColor
+	
+	buildingDamageMultiplier: 0.3
+}
+
+titanium: {
+	type: BasicBulletType
+	speed: 8
+	damage: 95
+	lifetime: 30
+	
+	width: 8
+	height: 13
+	hitSize: 7
+	
+	shootEffect: {
+		type: multiEffect
+		effects: [
+			shootBigColor
+			colorSparkBig
+		]
+	}
+	
+	smokeEffect: shootBigSmoke
+	
+	ammoMultiplier: 1
+	reloadMultiplier: 1
+	pierceCap: 3
+	pierce: true
+	pierceBuilding: true
+	
+	hitColor: "768a9a"
+	backColor: "768a9a"
+	trailColor: "768a9a"
+	
+	frontColor: "ffffff"
+	
+	trailWidth: 2.2
+	trailLength: 11
+	
+	hitEffect: hitBulletColor
+	despawnEffect: hitBulletColor
+	
+	rangeChange: 40
+	buildingDamageMultiplier: 0.3
+}
+}
+
+// limitRange();
+
+category: turret
+
+requirements: [
+	titanium/150
+	silicon/150
+	graphite/250
+]
+
+research: {
+	requirements: [
+		titanium/150
+		silicon/150
+		graphite/250
+	]
+	parent: segment-x
+}
