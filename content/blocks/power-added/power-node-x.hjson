@@ -1,0 +1,24 @@
+type: PowerNode
+name: "Power Node X"
+
+size: 1
+
+health: 150
+
+maxNodes: 40
+laserRange: 16
+
+category: power
+
+requirements: [
+	copper/1
+	lead/1
+]
+
+research: {
+	requirements: [
+		copper/5
+		lead/5
+	]
+	parent: geothermal-generator-x
+}

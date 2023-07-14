@@ -1,0 +1,28 @@
+type: ConsumeGenerator
+name: "Geothermal Generator X"
+
+size: 2
+
+health: 160
+hasPower: true
+hasLiquids: false
+
+consume: {
+}
+
+powerProduction: 2.5
+
+category: power
+
+requirements: [
+	copper/20
+	lead/20
+]
+
+research: {
+	requirements: [
+		copper/20
+		lead/20
+	]
+	parent: pneumatic-drill-x
+}
