@@ -45,6 +45,7 @@ surge-alloy: {
 	hitShake: 6
 	ammoMultiplier: 1
 }
+}
 
 category: turret
 
