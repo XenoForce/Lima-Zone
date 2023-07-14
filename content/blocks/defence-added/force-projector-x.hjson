@@ -1,0 +1,33 @@
+type: ForceProjector
+name: "Force Projector X"
+
+size: 2
+
+health: 360
+
+shieldHealth: 850
+hasPower: true
+canOverdrive: true
+solid: true
+radius: 161
+cooldownNormal: 1.85
+cooldownBrokenBase: 1.75
+
+consumes: {
+	power: 1.6
+}
+
+category: effect
+
+requirements: [
+	copper/150
+	lead/150
+]
+
+research: {
+	requirements: [
+		copper/150
+		lead/150
+	]
+	parent: mender-x
+}
