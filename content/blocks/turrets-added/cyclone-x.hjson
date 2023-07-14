@@ -7,7 +7,7 @@ health: 1305
 
 range: 200
 reload: 8
-recoil: 3
+recoil: 2
 rotateSpeed: 10
 inaccuracy: 10
 shootCone: 30
@@ -18,11 +18,13 @@ metaglass: {
 	type: FlakBulletType
 	speed: 4
 	damage: 6
+	lifetime: 51
+	
 	ammoMultiplier: 2
 	shootEffect: shootSmall
 	reloadMultiplier: 0.8
 	width: 6
-	height: 8
+	height: 9
 	hitEffect: flakExplosion
 	splashDamage: 45
 	splashDamageRadius: 25
@@ -50,6 +52,11 @@ blast-compound: {
 	type: FlakBulletType
 	speed: 4
 	damage: 8
+	lifetime: 51
+	
+	width: 6
+	height: 9
+	
 	shootEffect: shootBig
 	ammoMultiplier: 5
 	splashDamage: 45
@@ -63,6 +70,11 @@ plastanium: {
 	type: FlakBulletType
 	speed: 4
 	damage: 8
+	lifetime: 51
+	
+	width: 6
+	height: 9
+	
 	ammoMultiplier: 4
 	splashDamageRadius: 40
 	splashDamage: 37.5
@@ -94,6 +106,11 @@ surge-alloy: {
 	type: FlakBulletType
 	speed: 4.5
 	damage: 13
+	lifetime: 46
+	
+	width: 6
+	height: 9
+	
 	ammoMultiplier: 5
 	splashDamage: 75
 	splashDamageRadius: 38
