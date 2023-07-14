@@ -1,0 +1,28 @@
+type: PointDefenseTurret
+name: "Segment X"
+
+size: 2
+
+health: 550
+reload: 12
+bulletDamage: 2
+range: 110
+
+consumes: {
+	power: 1.5
+}
+
+category: turret
+
+requirements: [
+	copper/150
+	lead/150
+]
+
+research: {
+	requirements: [
+		copper/150
+		lead/150
+	]
+	parent: mender-x
+}
