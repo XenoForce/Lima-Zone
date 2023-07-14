@@ -1,0 +1,25 @@
+type: Drill
+name: "Pneumatic Drill X"
+
+size: 2
+tier: 8
+
+health: 160
+itemCapacity: 80
+drillTime: 40
+hardnessDrillMultiplier: 1
+
+category: production
+
+requirements: [
+	copper/18
+	lead/10
+]
+
+research: {
+	requirements: [
+		copper/18
+		lead/10
+	]
+	parent: mechanical-drill
+}
