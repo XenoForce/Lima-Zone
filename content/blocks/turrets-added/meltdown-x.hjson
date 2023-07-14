@@ -21,6 +21,8 @@ shootType: {
 	type: ContinuousLaserBulletType
 	damage: 78
 	length: 200
+	width: 3
+	
 	hitEffect: hitMeltdown
 	hitColor: "ffb98b"
 	status: melting
