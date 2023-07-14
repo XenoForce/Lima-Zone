@@ -1,0 +1,59 @@
+type: ItemTurret
+name: "Fuse X"
+
+size: 2
+
+health: 1980
+
+range: 150
+reload: 35
+shake: 2
+recoil: 3
+
+shoot: {
+	type: ShootSpread
+	shots: 1
+	spread: 2
+}
+
+shootCone: 8
+shootSound: shotgun
+
+ammoTypes: {
+titanium: {
+	type: ShrapnelBulletType
+	length: 155
+	damage: 66
+	ammoMultiplier: 4
+	width: 11
+	reloadMultiplier: 1.3
+}
+
+thorium: {
+	type: ShrapnelBulletType
+	length: 155
+	damage: 105
+	ammoMultiplier: 5
+	reloadMultiplier: 1.15
+	toColor: "f9a3c7"
+	shootEffect: thoriumShoot
+	smokeEffect: thoriumShoot
+}
+}
+
+category: turret
+
+requirements: [
+	copper/225
+	graphite/225
+	thorium/100
+]
+
+research: {
+	requirements: [
+		copper/225
+		graphite/225
+		thorium/100
+	]
+	parent: segment-x
+}
