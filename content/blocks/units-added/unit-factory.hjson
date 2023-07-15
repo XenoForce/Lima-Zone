@@ -1,0 +1,20 @@
+type: UnitFactory
+name: "Unit Factory (Lima Zone)"
+
+health: 99000
+size: 3
+itemCapacity: 30
+
+consumes: {}
+
+plans: [
+	{ unit: eclipse-x       , time: 180, requirements: [] }
+]
+
+requirements: []
+buildCostMultiplier: 0.1
+
+category: units
+research: segment-x
+
+alwaysUnlocked: true

@@ -1,0 +1,72 @@
+type: flying
+flying: true
+
+name: "Eclipse X"
+
+health: 22000
+armor: 13
+
+speed: 1.5
+
+accel: 0.04
+drag: 0.04
+rotateSpeed: 1
+
+lowAltitude: true
+
+engineOffset: 12
+engineSize: 2
+hitSize: 58
+
+targetFlags: [
+	core
+	reactor
+	battery
+]
+
+weapons :[
+{
+	name: "laser-cannon"
+	x: 0
+	y: 15
+	
+	// shootY: 14           //See: Weapon.java
+	// cooldownTime: 120    //See: Weapon.java
+	
+	reload: 30
+	
+	shootSound: laserbig
+	ejectEffect: none
+	
+	// The following statement block has no effect, for some reason:
+	
+	/*
+	shootEffect: shootBigSmoke2
+	shootCone: 40
+	range: 195
+	
+	shootDuration: 230
+	shootStatusDuration: 230
+	
+	loopSound: beam
+	loopSoundVolume: 2
+	*/
+	
+	bullet: {
+		type: ContinuousLaserBulletType
+		damage: 1850
+		length: 200
+		width: 3
+		
+		hitEffect: hitMeltdown
+		hitColor: "ffb98b"
+		status: melting
+		
+		drawSize: 420
+	}
+}
+]
+
+research: segment-x
+
+alwaysUnlocked: true
