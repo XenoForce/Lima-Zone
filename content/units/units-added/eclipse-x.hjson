@@ -35,7 +35,7 @@ weapons :[
 	
 	reload: 30
 	
-	shootSound: laserbig
+	shootSound: bolt
 	ejectEffect: none
 	
 	// The following statement block has no effect, for some reason:
